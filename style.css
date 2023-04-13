@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    padding-top: 80px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    background-color: blue;
+    border: none;
+    padding: 8px;
+    margin: 20px;
+}
+.btn:active{
+    background-color: aliceblue;
+}
+.color{
+    height: 200px;
+}
